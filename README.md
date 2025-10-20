@@ -2,6 +2,8 @@
 
 **Everyone can teach. Everyone can learn.**
 
+## [Figma link](https://www.figma.com/design/IfSP154cakPjHwpTE3iABc/HIVEMIN-e-D?m=auto&t=YylWMynAgVC4Kf9G-1)
+
 Hivemin(e)d is a concept app exploring how communities can grow through free skill-sharing. It’s designed to connect people who want to learn with those who love to teach — no money involved, just curiosity, collaboration, and collective growth.
 
 > **“One Hive, Mined.”**
