@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 flex justify-center items-center min-h-screen">
+    <div class="bg-white w-full max-w-md px-6 py-8 rounded-lg shadow-sm">
+      <h1 class="text-2xl font-semibold text-[#00C300] mb-6">Create Profile</h1>
+
+      <!-- Information Section -->
+
+      <!-- Name -->
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-700 mb-1"
+          >Name:</label
+        >
+        <input
+          type="text"
+          placeholder="John Doe..."
+          class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-green-500"
+        />
+      </div>
+
+      <!-- Photos -->
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-700 mb-1"
+          >Upload Photos:</label
+        >
+        <p class="text-xs text-gray-500 mb-2">
+          Add photos of you and your skill:
+        </p>
+        <div class="grid grid-cols-4 gap-2">
+          <img
+            src="/KPN Assets/pexels-life-_-kor-169880157-11872176.jpg"
+            alt="Uploaded photo"
+            class="rounded-md object-cover h-20 w-full"
+          />
+          <img
+            src="/KPN Assets/pexels-kelly-2950108 1.png"
+            alt="Uploaded photo"
+            class="rounded-md object-cover h-20 w-full"
+          />
+          <!-- Placeholder 1-->
+          <div
+            class="flex items-center justify-center bg-gray-200 rounded-md h-20"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-gray-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+          </div>
+          <!-- Placeholder 2-->
+          <div
+            class="flex items-center justify-center bg-gray-200 rounded-md h-20"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-gray-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- BIO SECTION -->
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-700 mb-1"
+          >Add bio:</label
+        >
+        <textarea
+          placeholder="I love creating metal structures..."
+          class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-green-500"
+          rows="2"
+        ></textarea>
+      </div>
+
+      <!-- SKILLS SECTION -->
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-700 mb-1"
+          >Skills Offered:</label
+        >
+        <input
+          type="text"
+          placeholder="Welding..."
+          class="w-full border border-gray-300 rounded-md px-3 py-2 mb-2 focus:outline-none focus:ring-1 focus:ring-green-500"
+        />
+        <div class="flex flex-wrap gap-2">
+          <span
+            class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm flex items-center"
+          >
+            Welding
+            <button class="ml-1 text-gray-500 hover:text-gray-700">
+              &times;
+            </button>
+          </span>
+          <span
+            class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm flex items-center"
+          >
+            Baking
+            <button class="ml-1 text-gray-500 hover:text-gray-700">
+              &times;
+            </button>
+          </span>
+          <span
+            class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm flex items-center"
+          >
+            Tutoring
+            <button class="ml-1 text-gray-500 hover:text-gray-700">
+              &times;
+            </button>
+          </span>
+          <span
+            class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm flex items-center"
+          >
+            Painting
+            <button class="ml-1 text-gray-500 hover:text-gray-700">
+              &times;
+            </button>
+          </span>
+        </div>
+      </div>
+
+      <!-- SKILL DROPDOWN -->
+      <div class="mb-6">
+        <label class="block text-sm font-medium text-gray-700 mb-1"
+          >Skill Level:</label
+        >
+        <select
+          class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-1 focus:ring-green-500"
+        >
+          <option>Professional</option>
+          <option>Intermediate</option>
+          <option>Beginner</option>
+        </select>
+      </div>
+
+      <!-- SUBMIT BUTTON -->
+      <button
+        onclick="location.href='/index.html'"
+        class="w-full bg-[#00C300] text-white py-2 rounded-md hover:bg-green-600 transition font-medium"
+      >
+        Create Profile
+      </button>
+    </div>
+  </body>
+</html>
